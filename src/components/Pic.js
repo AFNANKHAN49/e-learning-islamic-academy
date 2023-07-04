@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Pic = () => {
     return (
-        <div className='grid grid-rows2 col-span-1 '>
+        <div className='flex flex-row -mt-24'>
 
             <div className=' my-auto '>
 
@@ -15,7 +15,7 @@ const Pic = () => {
                     width={200}
                     alt=""
                 />
-                <p className='text-3xl pt-10'>Maulana Hafiz Zafar Ul Islam</p>
+                <p className='text-xl sm:text-3xl  pt-10'>Maulana Hafiz<br /> Zafar Ul Islam</p>
             </div>
             <div ></div>
         </div>

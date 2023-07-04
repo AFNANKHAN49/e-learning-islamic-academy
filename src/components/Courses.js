@@ -5,9 +5,9 @@ import ZoomSvg from './svgs/ZoomSvg'
 
 const Courses = () => {
     return (
-        <div className=' grid  grid-rows-2 col-span-2'>
-            <div className='text-left pl-32  my-auto '>
-                <h1 className=' font-extrabold pb-3 text-5xl  underline'>Courses</h1>
+        <div className='flex flex-col '>
+            <div className='text-left  my-auto '>
+                <h1 className=' font-extrabold pb-3 text-2xl sm:text-2xl md:text-5xl  underline' >Courses</h1>
                 <ul className=" list-disc list-inside text-justify">
                     <li className='flex '><TickSvg />Quran Teaching</li>
                     <li className='flex '><TickSvg />Darse-Nizami</li>
@@ -17,8 +17,8 @@ const Courses = () => {
                 </ul>
             </div>
 
-            <div className='text-left pl-32  my-auto'>
-                <h1 className=' font-extrabold pb-3 text-5xl  underline'>Classes</h1>
+            <div className='text-left  my-auto'>
+                <h1 className=' font-extrabold pb-3 text-2xl sm:text-2xl md:text-5xl  underline'>Classes</h1>
                 <ul className=" list-disc list-inside text-justify">
                     <li className='flex '><MeetSvg />Google Meet</li>
                     <li className='flex '><ZoomSvg />Zoom</li>
